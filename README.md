@@ -2,11 +2,12 @@
 
 ## Stack Tech :gear:
 
-### Back-end
+### Backend
 - Node.js
   - Express
-  - JWT
   - pg
+  - jsonwebtoken
+  - bcryptjs
 - PostgreSQL
 
 ## Entity Relationship Diagram (ERD) :triangular_ruler:
