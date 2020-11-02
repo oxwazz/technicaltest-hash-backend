@@ -11,7 +11,7 @@
 * [PostgreSQL](https://www.postgresql.org/)
 
 ## Entity Relationship Diagram (ERD) :triangular_ruler:
-<img src="./other/ERD - Hash - 1.svg" width="600">
+<img src="./other/ERD - Hash - 1.svg" width="640">
 
 ## API Endpoint :mailbox_with_mail:
 
