@@ -11,23 +11,25 @@
 
 ## API Endpoint :mailbox_with_mail:
 
-### Komoditas Endpoint
-* `POST /komoditas` - Create Komoditas
-* `GET /komoditas?accept` - Read All Komoditas
-* `PUT /komoditas/:id` - Update Komoditas
-* `DELETE /komoditas:id` - Delete Komoditas
-
 ### User Endpoint
-* `POST /komoditas` - Create Komoditas
-* `GET /komoditas?accept` - Read All Komoditas
-* `PUT /komoditas/:id` - Update Komoditas
-* `DELETE /komoditas:id` - Delete Komoditas
+* `POST /user` - Register User
+* `POST /user/login` - Login User
+* `POST /user/logout` - Logout User
+* `GET /user` - Read Info User
+* `PUT /user` - Update Info User (only name)
+* `DELETE /user` - Delete user
 
-### User Endpoint
-* `POST /komoditas` - Create Komoditas
-* `GET /komoditas?accept` - Read All Komoditas
-* `PUT /komoditas/:id` - Update Komoditas
-* `DELETE /komoditas:id` - Delete Komoditas
+### Product Endpoint
+* `POST /product` - Create Product
+* `GET /product` - Read All Product
+* `PUT /product/:id` - Update Product
+* `DELETE /product/:id` - Delete Product
+
+### Order Endpoint
+* `POST /order` - Create User Order
+* `GET /order` - Read All User Order
+* `PUT /order/:id` - Update Order
+* `DELETE /order/:id` - Delete Order
 
 ## Screenshot :camera:
 Screenshoot the App
