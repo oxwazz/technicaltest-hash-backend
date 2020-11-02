@@ -24,8 +24,8 @@ _**Simple Order API**_ is an RESTful API service it can use for order some produ
 ## API Endpoint :mailbox_with_mail:
 
 ### Legends
-:small_blue_diamond: - `without authentication`
-:small_orange_diamond: = `with authentication`
+:small_blue_diamond: `without authentication` <br>
+:small_orange_diamond: `with authentication`
 
 
 ### User Endpoint
@@ -39,8 +39,8 @@ _**Simple Order API**_ is an RESTful API service it can use for order some produ
 ### Product Endpoint
 * :small_orange_diamond: `POST /product` - Create Product (auth)
 * :small_orange_diamond: `GET /product` - Read All Product (auth)
-* :small_orange_diamond:`PUT /product/:id` - Update Product (auth)
-*  :small_orange_diamond: `DELETE /product/:id` - Delete Product (auth)
+* :small_orange_diamond: `PUT /product/:id` - Update Product (auth)
+* :small_orange_diamond: `DELETE /product/:id` - Delete Product (auth)
 
 ### Order Endpoint
 * :small_orange_diamond: `POST /order` - Create User Order (auth)
