@@ -3,43 +3,33 @@
 ## Stack Tech :gear:
 
 ### Back-end
-
-- [x] RESTful API Using Express.js and PostgreSQL
+- [x] Express.js
+- [x] PostgreSQL
 
 ## Entity Relationship Diagram (ERD) :triangular_ruler:
 <img src="/5 - Soal 17 - Aplikasi Web Survey Harga/0 other/ERD - Aplikasi Web Survey Harga.svg" width="600">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## API Endpoint :mailbox_with_mail:
 
 ### Komoditas Endpoint
-
 * `POST /komoditas` - Create Komoditas
 * `GET /komoditas?accept` - Read All Komoditas
 * `PUT /komoditas/:id` - Update Komoditas
 * `DELETE /komoditas:id` - Delete Komoditas
 
 ### User Endpoint
+* `POST /komoditas` - Create Komoditas
+* `GET /komoditas?accept` - Read All Komoditas
+* `PUT /komoditas/:id` - Update Komoditas
+* `DELETE /komoditas:id` - Delete Komoditas
 
-* `POST /login` - Login User
+### User Endpoint
+* `POST /komoditas` - Create Komoditas
+* `GET /komoditas?accept` - Read All Komoditas
+* `PUT /komoditas/:id` - Update Komoditas
+* `DELETE /komoditas:id` - Delete Komoditas
 
 ## Screenshot :camera:
-
 Screenshoot the App
 <img src="5 - Soal 17 - Aplikasi Web Survey Harga/0 other/screenshot/Screenshot (489).png" width="950">
 <img src="5 - Soal 17 - Aplikasi Web Survey Harga/0 other/screenshot/Screenshot (490).png" width="950">
