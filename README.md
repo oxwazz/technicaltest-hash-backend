@@ -1,4 +1,4 @@
-# Technical Test - Hash - Backend 😸
+<img src="./other/BG - header.png">
 
 ## Stack Tech :gear:
 
