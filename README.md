@@ -3,8 +3,11 @@
 ## Stack Tech :gear:
 
 ### Back-end
-- [x] Express.js
-- [x] PostgreSQL
+- Node.js
+  - Express
+  - JWT
+  - pg
+- PostgreSQL
 
 ## Entity Relationship Diagram (ERD) :triangular_ruler:
 <img src="./other/ERD - Hash - 1.svg" width="600">
