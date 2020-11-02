@@ -14,22 +14,22 @@
 ### User Endpoint
 * `POST /user` - Register User
 * `POST /user/login` - Login User
-* `POST /user/logout` - Logout User
-* `GET /user` - Read Info User
-* `PUT /user` - Update Info User (only name)
-* `DELETE /user` - Delete user
+* `POST /user/logout` - Logout User (auth)
+* `GET /user` - Read Info User (auth)
+* `PUT /user` - Update Info User (only name | auth)
+* `DELETE /user` - Delete user (auth)
 
 ### Product Endpoint
-* `POST /product` - Create Product
-* `GET /product` - Read All Product
-* `PUT /product/:id` - Update Product
-* `DELETE /product/:id` - Delete Product
+* `POST /product` - Create Product (auth)
+* `GET /product` - Read All Product (auth)
+* `PUT /product/:id` - Update Product (auth)
+* `DELETE /product/:id` - Delete Product (auth)
 
 ### Order Endpoint
-* `POST /order` - Create User Order
-* `GET /order` - Read All User Order
-* `PUT /order/:id` - Update Order
-* `DELETE /order/:id` - Delete Order
+* `POST /order` - Create User Order (auth)
+* `GET /order` - Read All User Order (auth)
+* `PUT /order/:id` - Update Order (auth)
+* `DELETE /order/:id` - Delete Order (auth)
 
 ## Screenshot :camera:
 Screenshoot the App
