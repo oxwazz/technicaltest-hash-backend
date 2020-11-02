@@ -43,12 +43,9 @@ Some Example Api test with Postman
 <img src="./other/SS - 4.png" width="950">
 
 
-
 [Node.js]: https://nodejs.org/en/ "Node.js website"
 [express]: https://www.npmjs.com/package/express "express npm package"
 [pg]: https://www.npmjs.com/package/pg "pg npm package"
 [jsonwebtoken]: https://www.npmjs.com/package/jsonwebtoken "jsonwebtoken npm package"
 [bcryptjs]: https://www.npmjs.com/package/bcryptjs "bcryptjs npm package"
 [PostgreSQL]: https://www.postgresql.org/ "PostgreSQL website"
-
-
