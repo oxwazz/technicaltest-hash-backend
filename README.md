@@ -1,7 +1,5 @@
 # Technical Test - Hash - Backend 😸
 
-Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
-
 ## Stack Tech :gear:
 
 ### Backend
