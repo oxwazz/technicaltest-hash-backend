@@ -23,25 +23,30 @@ _**Simple Order API**_ is an RESTful API service it can use for order some produ
 
 ## API Endpoint :mailbox_with_mail:
 
+### Legends
+:small_blue_diamond: - `without authentication`
+:small_orange_diamond: = `with authentication`
+
+
 ### User Endpoint
-* `POST /user` - Register User 
-* `POST /user/login` - Login User
-* `POST /user/logout` - Logout User (auth)
-* `GET /user` - Read Info User (auth)
-* `PUT /user` - Update Info User (only name | auth)
-* `DELETE /user` - Delete User (auth)
+* :small_blue_diamond: `POST /user` - Register User
+* :small_blue_diamond: `POST /user/login` - Login User
+* :small_orange_diamond: `POST /user/logout` - Logout User (auth)
+* :small_orange_diamond: `GET /user` - Read Info User (auth)
+* :small_orange_diamond: `PUT /user` - Update Info User (only name | auth)
+* :small_orange_diamond: `DELETE /user` - Delete User (auth)
 
 ### Product Endpoint
-* `POST /product` - Create Product (auth)
-* `GET /product` - Read All Product (auth)
-* `PUT /product/:id` - Update Product (auth)
-* `DELETE /product/:id` - Delete Product (auth)
+* :small_orange_diamond: `POST /product` - Create Product (auth)
+* :small_orange_diamond: `GET /product` - Read All Product (auth)
+* :small_orange_diamond:`PUT /product/:id` - Update Product (auth)
+*  :small_orange_diamond: `DELETE /product/:id` - Delete Product (auth)
 
 ### Order Endpoint
-* `POST /order` - Create User Order (auth)
-* `GET /order` - Read All User Order (auth)
-* `PUT /order/:id` - Update Order (auth)
-* `DELETE /order/:id` - Delete Order (auth)
+* :small_orange_diamond: `POST /order` - Create User Order (auth)
+* :small_orange_diamond: `GET /order` - Read All User Order (auth)
+* :small_orange_diamond: `PUT /order/:id` - Update Order (auth)
+* :small_orange_diamond: `DELETE /order/:id` - Delete Order (auth)
 
 ## Screenshot :camera:
 Some Example Api test with Postman
