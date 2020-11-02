@@ -4,7 +4,7 @@
 
 ### Backend
 * [Node.js](https://nodejs.org/en/)
-  * [Express](https://www.npmjs.com/package/express)
+  * [express](https://www.npmjs.com/package/express)
   * [pg](https://www.npmjs.com/package/pg)
   * [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
   * [bcryptjs](https://www.npmjs.com/package/bcryptjs)
