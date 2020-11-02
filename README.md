@@ -17,7 +17,7 @@
 
 ### User Endpoint
 * `POST /user` - Register User 
-* `+ POST /user/login` - Login User
+* `POST /user/login` - Login User
 * `POST /user/logout` - Logout User (auth)
 * `GET /user` - Read Info User (auth)
 * `PUT /user` - Update Info User (only name | auth)
