@@ -43,7 +43,7 @@ router.post('/order', auth, async (req, res) => {
     }
 })
 
-// get user order
+// get all user order
 router.get('/order', auth, (req, res) => {
     client.query(`
         SELECT orders.id, users.email, products.product_name, orders.total, orders.purchase_price, orders.status
@@ -55,7 +55,7 @@ router.get('/order', auth, (req, res) => {
         .catch((e) => res.send(e))
 })
 
-// edit all order
+// edit order
 router.put('/order/:id', auth, (req, res) => {
     client.query(`
         UPDATE orders
@@ -67,7 +67,7 @@ router.put('/order/:id', auth, (req, res) => {
         .catch((e) => res.send(e))
 })
 
-// delete all order
+// delete order
 router.delete('/order/:id', auth, (req, res) => {
     client.query(`
         DELETE FROM orders

@@ -63,7 +63,7 @@ router.post('/user/logout', auth, async (req, res) => {
         .catch((err) => res.send(err))
 })
 
-// get info user
+// read info user
 router.get('/user', auth, async (req, res) => {
     await client.query(`
         SELECT * FROM users

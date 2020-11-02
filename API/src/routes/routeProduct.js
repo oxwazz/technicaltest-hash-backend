@@ -20,7 +20,7 @@ router.post('/product', auth, async (req, res) => {
         .catch((e) => res.send(e))
 })
 
-// read products
+// read all product
 router.get('/product', auth, (req, res) => {
     client.query('SELECT * FROM products')
         .then(({ rows }) => res.send(rows))
