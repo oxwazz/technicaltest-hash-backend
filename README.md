@@ -3,26 +3,20 @@
 ## Stack Tech :gear:
 
 ### Backend
-- Node.js
-  - Express
-  - pg
-  - jsonwebtoken
-  - bcryptjs
-- PostgreSQL
+* [Node.js](https://nodejs.org/en/)
+  * [Express](https://www.npmjs.com/package/express)
+  * [pg](https://www.npmjs.com/package/pg)
+  * [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+  * [bcryptjs](https://www.npmjs.com/package/bcryptjs)
+* [PostgreSQL](https://www.postgresql.org/)
 
 ## Entity Relationship Diagram (ERD) :triangular_ruler:
 <img src="./other/ERD - Hash - 1.svg" width="600">
 
 ## API Endpoint :mailbox_with_mail:
 
-### Legends
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
-
-
 ### User Endpoint
-* ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `POST /user` - Register User 
+* `POST /user` - Register User 
 * `+ POST /user/login` - Login User
 * `POST /user/logout` - Logout User (auth)
 * `GET /user` - Read Info User (auth)
