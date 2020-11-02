@@ -28,12 +28,12 @@ _**Simple Order API**_ is an RESTful API service it can use for order some produ
 :small_orange_diamond: = `with authentication`
 
 ### User Endpoint
-* :small_blue_diamond: `POST /user` - Register User
-* :small_blue_diamond: `POST /user/login` - Login User
-* :small_orange_diamond: `POST /user/logout` - Logout User
-* :small_orange_diamond: `GET /user` - Read Info User
-* :small_orange_diamond: `PUT /user` - Update Info User (only name)
-* :small_orange_diamond: `DELETE /user` - Delete User
+:small_blue_diamond: `POST /user` - Register User<br>
+:small_blue_diamond: `POST /user/login` - Login User<br>
+:small_orange_diamond: `POST /user/logout` - Logout User<br>
+:small_orange_diamond: `GET /user` - Read Info User<br>
+:small_orange_diamond: `PUT /user` - Update Info User (only name)<br>
+:small_orange_diamond: `DELETE /user` - Delete User
 
 ### Product Endpoint
 * :small_orange_diamond: `POST /product` - Create Product
