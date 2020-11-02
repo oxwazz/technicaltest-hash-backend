@@ -38,9 +38,9 @@
 ## Screenshot :camera:
 Some Example Api test with Postman
 <img src="./other/SS - 1.png">
-<img src="./other/SS - 2.png" width="950">
-<img src="./other/SS - 3.png" width="950">
-<img src="./other/SS - 4.png" width="950">
+<img src="./other/SS - 2.png">
+<img src="./other/SS - 3.png">
+<img src="./other/SS - 4.png">
 
 
 [Node.js]: https://nodejs.org/en/ "Node.js website"
