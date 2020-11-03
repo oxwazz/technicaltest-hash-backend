@@ -1,7 +1,7 @@
 <img src="./other/BG - header.png">
 
 # Simple Order API 😸
-_**Simple Order API**_ is an RESTful API service it can use for order some product. API create using [express] and [PostgreSQL].
+_**Simple Order API**_ is an RESTful API service it can use for order some product. API created using [express] and [PostgreSQL].
 
 ## Stack Tech :gear:
 
